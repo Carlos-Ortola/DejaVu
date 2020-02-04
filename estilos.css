@@ -1,36 +1,25 @@
 @charset "utf8";
 
+/*Estructura General*/
 body{
     background-color:rgb(196, 195, 195);
    
 
 }
-
 header{
     background-color: black;
     color: white;
-}
-
-p.fecha{
-    background-color: grey;
-    color: white;
-    margin-left: 35%;
-    margin-right: 35%;
-    font-size: xx-large;
-    text-align: center;
-}
-
-span.cargo{
-    background-color: white;
-    color: red;
+    text-align:right;
 }
 main{
     margin-right: 20%;
     margin-left: 20%;
 }
-header{
-    text-align:right;
+footer{
+    margin-left: 20%;
+    margin-right:25%;
 }
+
 /*Líneas horizontales*/
 hr.negro{
     height: 3px;
@@ -41,11 +30,20 @@ hr.blanco{
     background-color: white;
 }
 
+/*CSS del interior de las secciones*/
 span.lugar{
     color: blue;
 }
-
-footer{
-    margin-left: 20%;
-    margin-right:25%;
+span.cargo{
+    background-color: white;
+    color: red;
 }
+p.fecha{
+    background-color: grey;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: xx-large;
+    text-align: center;
+}
+
