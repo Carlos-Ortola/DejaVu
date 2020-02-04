@@ -1,0 +1,51 @@
+@charset "utf8";
+
+body{
+    background-color:rgb(196, 195, 195);
+   
+
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+p.fecha{
+    background-color: grey;
+    color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: xx-large;
+    text-align: center;
+}
+
+span.cargo{
+    background-color: white;
+    color: red;
+}
+main{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+header{
+    text-align:right;
+}
+/*Líneas horizontales*/
+hr.negro{
+    height: 3px;
+    background-color: black;
+}
+hr.blanco{
+    height: 3px;
+    background-color: white;
+}
+
+span.lugar{
+    color: blue;
+}
+
+footer{
+    margin-left: 20%;
+    margin-right:25%;
+}
