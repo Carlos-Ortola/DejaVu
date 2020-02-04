@@ -3,8 +3,8 @@
 /*Estructura General*/
 body{
     background-color:rgb(196, 195, 195);
-   
-
+    text-align: justify;
+    font-family:sans-serif;
 }
 header{
     background-color: black;
@@ -20,17 +20,18 @@ footer{
     margin-right:25%;
 }
 
-/*Líneas horizontales*/
-hr.negro{
+h1{
+    padding: 2%;
+}
+hr{
     height: 3px;
     background-color: black;
 }
-hr.blanco{
-    height: 3px;
-    background-color: white;
-}
 
 /*CSS del interior de las secciones*/
+h2{
+    border-bottom: white 3px solid;
+}
 span.lugar{
     color: blue;
 }
@@ -46,4 +47,10 @@ p.fecha{
     font-size: xx-large;
     text-align: center;
 }
-
+strong{
+    font-variant: small-caps;
+}
+q {
+    border-bottom: red 1px dashed;
+    font-family: serif;
+    font-size: 150%;
